@@ -1,7 +1,7 @@
 import AgentAPI from "apminsight";
 AgentAPI.config()
 import express from 'express';
-import subjectsRouter from "./routes/subjects";
+import subjectsRouter from "./routes/subjects.js";
 import cors from "cors";
 import SecurityMiddleware from "./middleware/security";
 import {toNodeHandler} from "better-auth/node";
